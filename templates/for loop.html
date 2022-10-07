@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            color: blue;
+        }
+        h2
+        {
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1><marquee scrollamount = 5px scrolldelay = 5px direction ="right" loop="2">for loop with collection data</marquee></h1>
+        {% for s in name %}
+           <h2>{{s}}</h2>
+        {% endfor %}
+    </center>
+</body>
+</html>
